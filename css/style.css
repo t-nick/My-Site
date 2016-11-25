@@ -22,6 +22,11 @@ body{
 }
 .swg{
 	flex: 1 1 200px;
+	margin: 
+}
+svg{
+	width: 200px;
+	margin: 40px;
 }
 .fio{
 	flex: 1 1 300px;
