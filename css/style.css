@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+	color: #2C3E50;
+
+}
+.one{
+	height: 300px;
+	width: 100%;
+	background-color: #1ABC9C;
+	position: relative;
+	 display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch; 
+    align-content: stretch;
+    
+}
+.swg{
+	flex: 1 1 200px;
+}
+.fio{
+	flex: 1 1 300px;
+
+  font-family: "Kaushan Script";
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #2C3E50;
+  padding-top: 20px;
+}
+
+.contacty{
+	flex: 1 1 300px;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: right;
+    padding: 50px 10px;
+    color: #2C3E50;
+
+}
+.red{
+	color: #c82a40;
+	padding-right: 15px;
+}
+.logo{
+position: absolute;
+bottom: -70px;
+left: 42%;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+border: 2px solid #ECF0F1 ;
+box-shadow:0px -6px 20px rgba(255,255,255,0.6), 0px 3px 10px rgba(22,160,133,0.6), inset 1px 1px 5px rgba(255,255,255,0.5);
+background: url("../img/foto_1.jpg");
+background-size: 100% 100%;
+transition: all 2s cubic-bezier(0, .5, .5, 1);
+}
+.logo:hover{
+height: 300px;
+width: 300px;
+bottom: -150px;
+left: 37%;
+}
+.logo img{
+	width: 100%;
+}
+
+
+
+
+.two{
+	height: auto;
+	width: 100%;
+	background-color: #ECF0F1;
+	padding-top: 100px;
+	font-family: "Roboto";
+	font-size: 20px;
+	color: #2C3E50;
+
+	 display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch; 
+    align-content: stretch;
+    
+}
+
+.two i{
+	font-size: 26px;
+	color: #1ABC9C;
+	padding: 15px;
+
+}
+.left{
+	flex: 1 1 350px;
+}
+
+.right{
+	flex: 1 1 250px;
+	text-align: center;
+
+}
+.right p:first-child{
+	color: #1ABC9C;
+	font-size: 36px;
+	font-family: "Kaushan Script";
+	padding-bottom: 15px;
+}
+.right a{
+	text-decoration: none;
+	color: #2C3E50;
+	padding: 15px;
+}
+
+
+
+
+
+
+.tree{
+	padding: 30px;
+	text-align: center;
+	background-color: #ECF0F1;
+	color: #1ABC9C;
+}
