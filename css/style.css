@@ -3,13 +3,49 @@
 	padding: 0;
 }
 body{
-
+background-color: #ECF0F1;
 	color: #2C3E50;
-
 }
-.one{
-	height: 300px;
+
+/*preloader*/
+ #page-preloader {position: fixed;
+ 	left: 0;
+ 	top: 0;
+ 	right:0;
+ 	bottom:0;
+ 	background: #1ABC9C;
+ 	z-index: 30;
+ }
+.contpre small{
+	font-size:25px;
+}
+.contpre{width: 250px
+	;height: 100px
+	;position: absolute;
+	left: 49%;
+	top: 35%;
+	margin-left:-125px;
+	margin-top:-75px;
+	color:#fff;
+	font-size:40px;
+	text-align:center;
+}
+#page-preloader .spinner {
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	background: url('../img/pufff.svg') center center no-repeat;
+	background-size:41px;
+	margin: -16px 0 0 -16px;
+}
+/*preloader*/
+
+
+/*Firstpart*/
+.firstpart{
+	height: 330px;
 	width: 100%;
+	padding-bottom: 30px;
 	background-color: #1ABC9C;
 	position: relative;
 	 display: flex;
@@ -18,53 +54,60 @@ body{
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
-    
 }
-.swg{
-	flex: 1 1 200px;
-	margin: 
-}
-svg{
-	width: 200px;
-	margin: 40px;
-}
-.fio{
+.soc{
 	flex: 1 1 300px;
+	 margin:auto;
+	text-align: center;
+	padding: 4px;
 
+}
+.soc i{
+	color: #c82a40;
+	padding: 15px ;
+	font-size: 36px;
+}
+.soc i:hover{
+	font-size: 40px;
+}
+
+.fio{
+	flex: 1 1 1900px;
+	text-align: center;
   font-family: "Kaushan Script";
   font-weight: bold;
   font-size: 40px;
   text-align: center;
   color: #2C3E50;
   padding-top: 20px;
+  height: 30px;
 }
-
 .contacty{
 	flex: 1 1 300px;
     font-family: "Roboto";
     font-weight: normal;
-    font-size: 24px;
-    text-align: right;
-    padding: 50px 10px;
+    font-size: 22px;
+    text-align: center;
+    margin:auto;
     color: #2C3E50;
-
+    padding: 4px;
 }
 .red{
 	color: #c82a40;
 	padding-right: 15px;
 }
 .logo{
+background: url("../img/foto_1.jpg") no-repeat;
+background-size: 100% 100%;
 position: absolute;
 bottom: -70px;
-left: 42%;
+left: 44%;
 height: 150px;
 width: 150px;
 border-radius: 50%;
 border: 2px solid #ECF0F1 ;
 box-shadow:0px -6px 20px rgba(255,255,255,0.6), 0px 3px 10px rgba(22,160,133,0.6), inset 1px 1px 5px rgba(255,255,255,0.5);
-background: url("../img/foto_1.jpg");
-background-size: 100% 100%;
-transition: all 2s cubic-bezier(0, .5, .5, 1);
+transition: all 1.8s cubic-bezier(0, .5, .5, 1);
 }
 .logo:hover{
 height: 300px;
@@ -77,9 +120,8 @@ left: 37%;
 }
 
 
-
-
-.two{
+/*Secondpart*/
+.secondpart{
 	height: auto;
 	width: 100%;
 	background-color: #ECF0F1;
@@ -94,23 +136,15 @@ left: 37%;
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
-    
-}
-
-.two i{
-	font-size: 26px;
-	color: #1ABC9C;
-	padding: 15px;
-
+    text-align: center;
 }
 .left{
-	flex: 1 1 350px;
+	flex: 1 1 250px;
+	padding: 15px;
 }
-
 .right{
 	flex: 1 1 250px;
 	text-align: center;
-
 }
 .right p:first-child{
 	color: #1ABC9C;
@@ -124,14 +158,12 @@ left: 37%;
 	padding: 15px;
 }
 
-
-
-
-
-
-.tree{
-	padding: 30px;
+/*Thirdpart*/
+.thirdpart{
+	width: 100%;
+	padding: 30px 0 30px 0;
 	text-align: center;
 	background-color: #ECF0F1;
 	color: #1ABC9C;
+	font-size: 26px;
 }
