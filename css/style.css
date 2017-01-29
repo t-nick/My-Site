@@ -8,20 +8,22 @@ background-color: #ECF0F1;
 }
 
 /*preloader*/
- #page-preloader {position: fixed;
+ #page-preloader {
+ 	position: fixed;
  	left: 0;
  	top: 0;
  	right:0;
  	bottom:0;
  	background: #1ABC9C;
  	z-index: 30;
- }
+}
 .contpre small{
 	font-size:25px;
 }
-.contpre{width: 250px
-	;height: 100px
-	;position: absolute;
+.contpre{
+	width: 250px;
+	height: 100px;
+	position: absolute;
 	left: 49%;
 	top: 35%;
 	margin-left:-125px;
@@ -48,7 +50,7 @@ background-color: #ECF0F1;
 	padding-bottom: 30px;
 	background-color: #1ABC9C;
 	position: relative;
-	 display: flex;
+	display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content:center;
@@ -60,7 +62,6 @@ background-color: #ECF0F1;
 	 margin:auto;
 	text-align: center;
 	padding: 4px;
-
 }
 .soc i{
 	color: #c82a40;
@@ -70,17 +71,16 @@ background-color: #ECF0F1;
 .soc i:hover{
 	font-size: 40px;
 }
-
 .fio{
 	flex: 1 1 1900px;
 	text-align: center;
-  font-family: "Kaushan Script";
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
-  color: #2C3E50;
-  padding-top: 20px;
-  height: 30px;
+  	font-family: "Kaushan Script";
+  	font-weight: bold;
+  	font-size: 40px;
+  	text-align: center;
+  	color: #2C3E50;
+  	padding-top: 20px;
+  	height: 30px;
 }
 .contacty{
 	flex: 1 1 300px;
@@ -97,28 +97,27 @@ background-color: #ECF0F1;
 	padding-right: 15px;
 }
 .logo{
-background: url("../img/foto_1.jpg") no-repeat;
-background-size: 100% 100%;
-position: absolute;
-bottom: -70px;
-left: 44%;
-height: 150px;
-width: 150px;
-border-radius: 50%;
-border: 2px solid #ECF0F1 ;
-box-shadow:0px -6px 20px rgba(255,255,255,0.6), 0px 3px 10px rgba(22,160,133,0.6), inset 1px 1px 5px rgba(255,255,255,0.5);
-transition: all 1.8s cubic-bezier(0, .5, .5, 1);
+	background: url("../img/foto_1.jpg") no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: -70px;
+	left: 44%;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid #ECF0F1 ;
+	box-shadow:0px -6px 20px rgba(255,255,255,0.6), 0px 3px 10px rgba(22,160,133,0.6), inset 1px 1px 5px rgba(255,255,255,0.5);
+	transition: all 1.8s cubic-bezier(0, .5, .5, 1);
 }
 .logo:hover{
-height: 300px;
-width: 300px;
-bottom: -150px;
-left: 37%;
+	height: 300px;
+	width: 300px;
+	bottom: -150px;
+	left: 37%;
 }
 .logo img{
 	width: 100%;
 }
-
 
 /*Secondpart*/
 .secondpart{
@@ -129,8 +128,7 @@ left: 37%;
 	font-family: "Roboto";
 	font-size: 20px;
 	color: #2C3E50;
-
-	 display: flex;
+	display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content:center;
@@ -158,8 +156,8 @@ left: 37%;
 	padding: 15px;
 }
 
-/*Thirdpart*/
-.thirdpart{
+/*Footer*/
+.footer{
 	width: 100%;
 	padding: 30px 0 30px 0;
 	text-align: center;

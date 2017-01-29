@@ -1,56 +1,43 @@
+/*for pc*/
 @media screen and (max-width: 980px){
-
 .contacty{
 	text-align: right;
 	padding-right: 15px;
 }
-
-
 }
-
-
+/*for tab*/
 @media screen and (max-width: 768px){
-
 .logo,
-	.logo:hover {
-		height: 170px;
-width: 170px;
-bottom: -90px;
-left: 38%;
-	}
+.logo:hover {
+	height: 170px;
+	width: 170px;
+	bottom: -90px;
+	left: 38%;
+}
 .contacty{
 	text-align: center;
 	padding-right: 0;
 }
 }
-
-
-
-
-
-
-
+/*for tab*/
 @media screen and (max-width: 620px){
-
 	.firstpart{
 	height: 380px;
 }
-	.contacty{
-		padding-bottom: 80px;
-	}
-
-
-		}
-
-		@media screen and (max-width: 480px){
-			.firstpart{
+.contacty{
+	padding-bottom: 80px;
+}
+}
+/*for phone*/
+@media screen and (max-width: 480px){
+.firstpart{
 	height: 420px;
 }
 .logo,
-	.logo:hover {
-		height: 150px;
-width: 150px;
-bottom: -90px;
-left: 33%;
-	}
+.logo:hover {
+	height: 170px;
+	width: 170px;
+	bottom: -90px;
+	left: 28%;
+}
 }
