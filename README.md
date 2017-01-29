@@ -9,7 +9,7 @@ Photo placed in a separate unit. When you hover on photo it increases.
     
 2. second part has part with my skills and my portfolio
 
-3. thirdpart has only image
+3. thir dpart has only image
 
 In My-Site I use preloader and animation on photo.
 My-Site write on flexbox.
